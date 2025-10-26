@@ -1,0 +1,69 @@
+desktop-color: "#0a0a0a"
+
+title-text:" "
+
++ image {
+    top = 50%-170-52-16
+    left = 50%-152
+    width = 304
+    height = 52
+
+    file = "logo.png"
+}
+
++ boot_menu {
+    top = 50%-170
+    left = 50%-300
+    width = 600
+    height = 340
+
+    menu_pixmap_style = "boot_menu_*.png"
+
+    icon_width = 30
+    icon_height = 30
+    item_icon_space = 6
+
+    item-height = 42
+    item_padding = 0
+    item_spacing = 6
+    item_font = "Be Vietnam Pro Regular 14"
+    item_color = "#EDEDED"
+    item_pixmap_style = "item_*.png"
+
+    selected_item_font = "Be Vietnam Pro Bold 14"
+    selected_item_color = "#666CFF"
+    selected_item_pixmap_style = "selected_item_*.png"
+}
+
++ progress_bar {
+    id = "__timeout__"
+    show_text = false
+
+    top = 50%+170+16
+    left = 50%-300
+    width = 600
+    height = 36
+
+    bar_style = "progress_bar_*.png"
+    highlight_style = "progress_fill_*.png"
+}
+
++label {
+    text = "v1.0.0"
+    
+    top = 100%-21-16
+    left = 0%+16
+    width = 100
+    height = 42
+
+    color = "#888888"
+}
+
++ image {
+    top = 100%-16-42
+    left = 50%-300
+    width = 600
+    height = 42
+
+    file = "menu.png"
+}
