@@ -48,8 +48,8 @@ title-text:" "
     highlight_style = "progress_fill_*.png"
 }
 
-    text = "v1.0.0"
 + label {
+    text = "v1.0.1"
     
     top = 100%-21-16
     left = 0%+16
