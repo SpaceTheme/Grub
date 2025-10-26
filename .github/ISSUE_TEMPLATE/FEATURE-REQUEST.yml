@@ -1,0 +1,26 @@
+name: Distro icon Request
+description: Suggest an distro icon for this project!
+title: "[Feature] "
+type: "Feature"
+labels: [enhancement]
+projects: "SpaceTheme/3"
+assignees: SpaceEnergy
+body:
+- type: checkboxes
+  attributes:
+    label: I checked the following before reporting a icon request
+    description: Please check the following before reporting a icon request.
+    options:
+    - label: I found no existing issue matching my icon request
+      required: true
+    - label: I use the latest version
+      required: true
+- type: input
+  attributes:
+    label: Distro Name
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: cat /etc/os-release Output
+    description: Please provide the output of `cat /etc/os-release` from the distro you
