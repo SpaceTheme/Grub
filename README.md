@@ -11,4 +11,7 @@
 ![Preview](https://raw.githubusercontent.com/SpaceTheme/Grub/main/.github/assets/preview.png)
 
 ## Installation
-SOON
+1. Install the source code of the repo
+1. Run the `install.sh` script.
+
+**Voilà! Enjoy the new look of your Steam!**
