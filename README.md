@@ -14,4 +14,4 @@
 1. Install the source code of the repo
 1. Run the `install.sh` script.
 
-**Voilà! Enjoy the new look of your Steam!**
+**Voilà! Enjoy the new look of your Grub!**
